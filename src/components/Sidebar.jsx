@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Dashboard from "./Dashboard";
+import Dashboard from "./ArticleList";
 import CreateProducts from "./CreateProducts";
 
 const Sidebar = () => {

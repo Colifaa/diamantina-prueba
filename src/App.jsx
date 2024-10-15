@@ -8,7 +8,7 @@ import Empresa from './Empresa';
 import Contacto from './Contacto';
 import Footer from './components/Footer';
 import './i18n'; 
-import Dashboard from './dashboard';
+import Dashboard from './Dashboard';
 
 
 const App = () => {
