@@ -7,8 +7,10 @@ import Mina from './Mina';
 import Empresa from './Empresa';
 import Contacto from './Contacto';
 import Footer from './components/Footer';
+
 import './i18n'; 
-import Dashboard from './Dashboard';
+import Prueba from './Prueba';
+
 
 
 const App = () => {
@@ -21,7 +23,7 @@ const App = () => {
         <Route path="/mina" element={<Mina />} />
         <Route path="/empresa" element={<Empresa />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/prueba" element={<Prueba />} />
       </Routes>
       <Footer />
     </Router>

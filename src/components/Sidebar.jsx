@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Dashboard from "./ArticleList";
+import ArticleList from "./ArticleList";
 import CreateProducts from "./CreateProducts";
 
 const Sidebar = () => {
@@ -9,7 +9,7 @@ const Sidebar = () => {
   const renderComponent = () => {
     switch (activeComponent) {
       case "dashboard":
-        return <Dashboard />;
+        return <ArticleList />;
       case "Crear":
         return <CreateProducts />;
       case "Eliminar":
@@ -17,7 +17,7 @@ const Sidebar = () => {
       case "favorites":
         return <Eliminar />;
       default:
-        return <Dashboard />;
+        return <ArticleList />;
     }
   };
 
