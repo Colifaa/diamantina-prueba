@@ -68,6 +68,7 @@ const Navbar = () => {
           <Link to="/mina" className="hover:text-blue-400">{t('La mina')}</Link>
           <Link to="/empresa" className="hover:text-blue-400">{t('La empresa')}</Link>
           <Link to="/contacto" className="hover:text-blue-400">{t('Contacto')}</Link>
+          <Link to="/prueba" className="hover:text-blue-400">{t('Prueba')}</Link>
 
           {/* Selector de idiomas */}
           <div className="flex items-center">
@@ -88,6 +89,7 @@ const Navbar = () => {
         <Link to="/mina" className="block px-2 py-1 hover:bg-gray-700 rounded">{t('La mina')}</Link>
         <Link to="/empresa" className="block px-2 py-1 hover:bg-gray-700 rounded">{t('La empresa')}</Link>
         <Link to="/contacto" className="block px-2 py-1 hover:bg-gray-700 rounded">{t('Contacto')}</Link>
+        <Link to="/prueba" className="block px-2 py-1 hover:bg-gray-700 rounded">{t('Prueba')}</Link>
       </div>
     </nav>
   );
